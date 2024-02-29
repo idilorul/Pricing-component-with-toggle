@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.selection__button {
+  display: flex;
+  gap: 2rem;
+}
+
+.selections {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 6rem;
+  margin-top: 5rem;
+}
